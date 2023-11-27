@@ -176,15 +176,16 @@ aside {
 }
 .artVert i {
   position: relative;
-  right: -18em;
+  right: -19em;
   font-size: 28px;
+  top: -20px;
 }
 .art {
   display: flex;
   padding: 0 50px;
 }
 .artImg {
-  max-height: 11em;
+  max-height: 15em;
   /* padding: 30px 0; */
 }
 .date {
