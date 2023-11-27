@@ -131,7 +131,7 @@ article {
 .ta a img,
 .artVert a img:first-child {
   height: 35px;
-  /* border-radius: 20px; */
+  border-radius: 20px;
   margin-right: 5px;
 }
 .ta p:last-child {
@@ -148,6 +148,9 @@ aside {
   flex-direction: column;
   padding: 20px 40px 80px 0;
   max-width: 535px;
+}
+.artVert a {
+  padding-bottom: 10px;
 }
 .artVert a p {
   width: 30em;
