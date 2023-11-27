@@ -1,0 +1,208 @@
+html {
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  font-family: "Spectral", serif;
+  font-size: 100px;
+}
+#hero p {
+  padding: 20px 0 65px 0;
+  margin-right: 1150px;
+  font-size: 30px;
+}
+#hero a {
+  margin: 50px 0;
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  padding: 5px 15px;
+  border-radius: 30px;
+}
+header {
+  background-color: #ffc017;
+  border-bottom: 1px solid black;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+nav {
+  height: 100%;
+  margin: 20px 64px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+  margin-right: 10px;
+}
+#getStarted {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+}
+#hero {
+  background-color: #ffc017;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+/*👉#hero svg {
+  float: right;
+  ➡ height: 20%; ⬅
+  margin-left: 600px;
+}👈*/
+.Msvg {
+  position: absolute;
+  right: 0;
+}
+#title {
+  margin: 100px;
+}
+.trdiv {
+  border-bottom: 1px solid rgb(227, 227, 227);
+}
+#trending {
+  padding: 50px 0;
+}
+.tr {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 16.5%;
+  padding: 10px 0;
+}
+
+#trendingArticle {
+  display: flex;
+  flex-wrap: wrap;
+  /*👉  display: grid;
+  grid-template-columns: 300px 300px 300px;👈*/
+  justify-content: center;
+  margin: 0 11%;
+}
+article {
+  display: flex;
+  justify-content: center;
+}
+.num {
+  font-size: 30px;
+  position: relative;
+  float: left;
+  color: rgb(204, 204, 204);
+  padding: 10px;
+  margin-bottom: 20px;
+  top: -15px;
+}
+.ta {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 21em;
+}
+.ta a:first-child,
+.artVert a:first-child {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  align-items: center;
+}
+
+.ta a:nth-child(2) {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px 0;
+}
+.ta a img,
+.artVert a img:first-child {
+  height: 35px;
+  /* border-radius: 20px; */
+  margin-right: 5px;
+}
+.ta p:last-child {
+  display: flex;
+  align-items: center;
+}
+aside {
+  position: sticky;
+  top: 69px;
+  height: 20em;
+}
+.artVert {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px 80px 0;
+  max-width: 535px;
+}
+.artVert a p {
+  width: 30em;
+  color: grey;
+  font-size: 18px;
+}
+.artVert a h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.artVert a:first-child {
+  font-weight: bold;
+}
+.artVert p {
+  display: flex;
+  color: grey;
+}
+.artVert p span {
+  background-color: rgb(238, 238, 238);
+  padding: 2px;
+  border-radius: 20px;
+}
+.artVert i {
+  position: relative;
+  right: -18em;
+  font-size: 28px;
+}
+.art {
+  display: flex;
+  padding: 0 50px;
+}
+.artImg {
+  height: 12em;
+  /* padding: 30px 0; */
+}
+.date {
+  display: flex;
+  justify-content: space-between;
+}
+aside div h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+aside div:first-child div a {
+  font-size: 20px;
+  border: 1px solid grey;
+  padding: 10px;
+  color: grey;
+  border-radius: 10px;
+}
+aside div:first-child div {
+  padding-bottom: 20px;
+  font-size: 20px;
+  border-bottom: 1px solid rgb(196, 196, 196);
+}
+aside div {
+  width: 25em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+aside div a {
+  margin-top: 15px;
+}
