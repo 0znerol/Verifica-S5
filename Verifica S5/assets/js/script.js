@@ -38,5 +38,5 @@ function interval() {
         g[number].style.transitionDuration = "200ms";
       }
     }
-  }, 5);
+  }, 1);
 }
