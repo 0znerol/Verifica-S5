@@ -16,20 +16,27 @@ window.onload = function () {
       getStarted.style.backgroundColor = "black";
     }
   });
-
-  mCycle();
+  interval();
 };
 //todo
-let mCycle = () => {
-  while (i < 100) {
-    setInterval(function () {
-      for (i = 0; i < 100; i++) {
-        let rand;
-        rand = Math.floor(Math.random() * 100);
-        console.log(rand);
-        i++;
+
+function interval() {
+  setInterval(function () {
+    number = Math.floor(Math.random() * 1957);
+    // console.log(g);
+
+    //other code
+    if (number != 1 && g[number].style.display === "block") {
+      console.log(number);
+      console.log(g[number]);
+
+      if (g[number].style.opacity === "0") {
+        g[number].style.opacity = "1";
+        g[number].style.transitionDuration = "200ms";
+      } else {
+        g[number].style.opacity = "0";
+        g[number].style.transitionDuration = "200ms";
       }
-    }, 1000);
-    break;
-  }
-};
+    }
+  }, 5);
+}
