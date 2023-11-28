@@ -24,8 +24,6 @@ function interval() {
   setInterval(function () {
     number = Math.floor(Math.random() * 1957);
     // console.log(g);
-
-    //other code
     if (number != 1 && g[number].style.display === "block") {
       console.log(number);
       console.log(g[number]);
